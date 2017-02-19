@@ -1,0 +1,5 @@
+register user: 
+username :   git config --global user.name "User Name"
+email adress :  git config --global user.email "email@adress"
+
+get username or email adress: git config user.name|email
