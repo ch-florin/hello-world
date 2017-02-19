@@ -9,7 +9,7 @@ git add "filename"|*
 git commit -m "text message"
 git log
 git log --pretty=online -2
-git push origin master
+git push origin master | origin
 git pull
 git branch hello-1
 switch branch: git checkout branch-name
