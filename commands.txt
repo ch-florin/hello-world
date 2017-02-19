@@ -6,3 +6,6 @@ get username or email adress: git config user.name|email
 
 git add "filename"|*
 git commit -m "text message"
+git log
+git log --pretty=online -2
+git push origin master
