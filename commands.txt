@@ -10,3 +10,12 @@ git commit -m "text message"
 git log
 git log --pretty=online -2
 git push origin master
+git pull
+git branch hello-1
+switch branch: git checkout branch-name
+push new branch: $ git push origin hello-1
+show branches: git branch
+merge: git to master: git checkout master; git merge hello-1
+delete branch that was merged: git branch -d hello-1
+push changes to git hub: git push origin master
+delete branch from git hub: git push origin --delete hello-1
